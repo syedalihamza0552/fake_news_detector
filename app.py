@@ -12,6 +12,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Download required NLTK data
+nltk.download('punkt_tab')
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
